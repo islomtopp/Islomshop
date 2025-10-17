@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f4ff; /* oq-ko‘k fon */
+  margin: 0;
+  padding: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.login, .menu {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #ffffff; /* oq blok */
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.3); /* ko‘k soyali */
+  border-radius: 10px;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #2e8bff; /* ko‘k chegaralar */
+}
+
+button {
+  background: #2e8bff; /* ko‘k tugma */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1565c0; /* qoraygan ko‘k */
+}
+
+.product {
+  border: 1px solid #2e8bff; /* ko‘k chegaralar */
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background: #e6f0ff; /* engil ko‘k fon */
+}
+
+h2, h3, p {
+  color: yellow; /* matn sariq */
+}
